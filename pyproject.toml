@@ -3,11 +3,11 @@ requires = ["setuptools>=61", "setuptools_scm[toml]>=7"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "deepmodeling_sphinx"
+name = "hnecu_sphinx"
 dynamic = ["version"]
-description = "Sphinx extension for DeepModeling projects."
+description = "Sphinx extension for custom projects."
 authors = [
-  {name = "DeepModeling"},
+  {name = "Mi Ramon"},
 ]
 license = {file = "LICENSE"}
 classifiers = [
@@ -25,12 +25,12 @@ requires-python = ">=3.7"
 readme = "README.md"
 
 [project.urls]
-Homepage = "https://github.com/deepmodeling/deepmodeling_sphinx"
-documentation = "https://docs.deepmodeling.com/projects/deepmodeling-sphinx/"
-repository = "https://github.com/deepmodeling/deepmodeling_sphinx"
+Homepage = "https://github.com/ramonmi/hnecu_sphinx"
+documentation = "https://github.com/ramonmi/hnecu_sphinx"
+repository = "https://github.com/ramonmi/hnecu_sphinx"
 
 [tool.setuptools.package-data]
-deepmodeling_sphinx = [
+hnecu_sphinx = [
     'banner.html',
     'banner.css',
     'banner.js',

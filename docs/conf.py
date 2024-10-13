@@ -1,11 +1,11 @@
 from datetime import date
 
-project = "deepmodeling_sphinx"
-copyright = "2022-%d, DeepModeling" % date.today().year
-author = "DeepModeling"
+project = "hnecu_sphinx"
+copyright = "2021-%d, HNECU" % date.today().year
+author = "Mi Ramon"
 
 extensions = [
-    "deepmodeling_sphinx",
+    "hnecu_sphinx",
     "myst_parser",
     "sphinx.ext.autodoc",
     "sphinx.ext.viewcode",
@@ -23,7 +23,7 @@ def run_apidoc(_):
 
     sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
     cur_dir = os.path.abspath(os.path.dirname(__file__))
-    module = os.path.join(cur_dir, "..", "deepmodeling_sphinx")
+    module = os.path.join(cur_dir, "..", "hnecu_sphinx")
     main(
         [
             "-M",
